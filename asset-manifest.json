@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Book-store/static/css/main.7e767163.css",
+    "main.js": "/Book-store/static/js/main.f542798b.js",
+    "static/media/book-gd350875eb_1280.png": "/Book-store/static/media/book-gd350875eb_1280.8bbc02d6e63b5e5f421e.png",
+    "static/media/book-g3d75bd6c2_1280.png": "/Book-store/static/media/book-g3d75bd6c2_1280.4b6f6734920fb71a28b1.png",
+    "static/media/book-g4011b1987_1280.png": "/Book-store/static/media/book-g4011b1987_1280.e1e63c83c39ddb79cbe1.png",
+    "static/media/library-934285_1280.jpg": "/Book-store/static/media/library-934285_1280.683f159e73574ad9cc87.jpg",
+    "static/media/book-gc25809320_1280.jpg": "/Book-store/static/media/book-gc25809320_1280.1e0bce92f70ea601a27e.jpg",
+    "static/media/81R2N4PRuUL._AC_UF1000,1000_QL80_.jpg": "/Book-store/static/media/81R2N4PRuUL._AC_UF1000,1000_QL80_.c4f40329f528aa922c5d.jpg",
+    "static/media/9781847941831.jpg": "/Book-store/static/media/9781847941831.5feae84cee224bb7faa2.jpg",
+    "static/media/think-and-grow-rich.jpg": "/Book-store/static/media/think-and-grow-rich.7f88c00f3f2686441050.jpg",
+    "static/media/51bSI+BIVwL.jpg": "/Book-store/static/media/51bSI+BIVwL.d69437bc766a087e1ece.jpg",
+    "static/media/51XCCfGQSnL.SX316.SY480._SL500_.jpg": "/Book-store/static/media/51XCCfGQSnL.SX316.SY480._SL500_.81e2c432e6f6d66c0cb2.jpg",
+    "index.html": "/Book-store/index.html",
+    "main.7e767163.css.map": "/Book-store/static/css/main.7e767163.css.map",
+    "main.f542798b.js.map": "/Book-store/static/js/main.f542798b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e767163.css",
+    "static/js/main.f542798b.js"
+  ]
+}
