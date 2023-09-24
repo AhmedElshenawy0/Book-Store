@@ -1,0 +1,90 @@
+.model-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 99999999;
+}
+.model {
+  width: 60%;
+  height: 60%;
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+}
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.model img {
+  height: 90%;
+  border-radius: 10px;
+  margin-right: 40px;
+}
+
+.model .model-info h1 {
+  margin-bottom: 10px;
+}
+.model .model-info .price-heading {
+  margin-top: 10px;
+}
+.model .model-info .card-info {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.model .model-info .card-info input {
+  margin-right: 10px;
+  outline: none;
+  width: 50px;
+  text-align: center;
+  font-weight: 700;
+}
+.model .model-info .card-info .add-card {
+  padding: 5px;
+  border: 1px solid rgb(63, 121, 123);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  color: rgb(63, 121, 123);
+  font-weight: 700;
+  cursor: pointer;
+}
+.model .model-info .details {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .model {
+    flex-direction: column;
+  }
+  .model img {
+    height: 45%;
+    width: 50%;
+
+  }
+  .model .model-info .card-info input {
+    margin-right: 20px;
+
+  }
+  .model h1{
+    font-size: 25px;
+  }
+}

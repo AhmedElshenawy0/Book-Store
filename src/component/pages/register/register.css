@@ -1,0 +1,56 @@
+.register-container{
+    height: calc(100vh - 158px);
+    background-image: url(../../../images/library-934285_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-container form{
+    width: 600px;
+    background-color: rgb(156, 155, 155);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.register-container form input{
+    padding: 5px 10px;
+    border-radius: 10px;
+    outline: none;
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 0 0 3px black;
+    font-size: 16px;
+
+}
+.register-container form button{
+    padding: 5px 10px;
+    border-radius: 10px;
+    outline: none;
+    width: 100%;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.register-container form h2{
+margin-bottom: 20px;
+color: white ;
+text-shadow: 0 0 10px black;
+}
+@media(max-width: 767px){
+    .register-container{
+        height: calc(100vh - 95px);
+    }
+}
+@media(max-width: 767px){
+    .register-container form{
+        width: 350px;
+     
+    }
+}

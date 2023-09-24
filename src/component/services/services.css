@@ -1,0 +1,33 @@
+.services-container{
+    padding: 10px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.service{
+    width: 23%;
+    padding: 10px   ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 20px;
+    gap: 10px;
+    font-size: 17px;
+}
+.service:hover{
+    background-color:rgb(35, 92, 94);
+    color: white;
+}
+
+@media(max-width: 767px){
+    .service{
+        width: 45%;
+    }
+}
+@media(max-width: 500px){
+    .service{
+        width: 100%;
+    }
+}

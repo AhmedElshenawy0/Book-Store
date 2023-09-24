@@ -1,0 +1,152 @@
+.top-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(35, 92, 94);
+  color: white;
+  padding: 10px 50px;
+  position: relative;
+}
+.left-top {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+.left-top p {
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.left-top p .logo1{
+  font-size: 22px;
+  transform: skewX(-10deg);
+}
+
+.left-top p .logo2{
+  margin-left: 15px;
+}
+.middle-top {
+  flex-basis: 600px;
+  text-align: center;
+  position: relative;
+}
+.middle-top input {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 17px;
+}
+.search-icon {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  color: black;
+}
+.right-top {
+  position: relative;
+  text-decoration: none;
+  color: white;
+}
+.cart-icon {
+  font-size: 25px;
+  font-weight: bold;
+}
+.right-top span {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background-color: white;
+  border-radius: 50%;
+  color: black;
+  width: 20px;
+  text-align: center;
+  font-size: 13px;
+}
+.bars {
+  display: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+@media (max-width: 767px) {
+  .left-top {
+    display: none;
+  }
+  .middle-top {
+    margin-right: 10px;
+  }
+  .bars {
+    display: block;
+    margin-right: 10px;
+    font-size: 25px;
+  }
+}
+
+/* Bottom Header */
+
+.bottom-header {
+  display: flex;
+  justify-content: center;
+  background-color: gainsboro;
+}
+.bottom-header ul {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+.bottom-header .link {
+  margin-left: 10px;
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.bottom-header .link:hover {
+  background-color: rgb(182, 179, 179);
+}
+@media (max-width: 767px) {
+  .bottom-header {
+    width: 30%;
+    height: 100vh;
+    justify-content: flex-start;
+    transform: translateX(-300px);
+    transition: 0.5s;
+    position: absolute;
+    z-index: 222222;
+  }
+  .bottom-header ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: start;
+  }
+  .bottom-header .link {
+    padding: 20px;
+    height: fit-content;
+    margin-top: 5px;
+  }
+}
+@media (max-width: 500px) {
+    .bottom-header {
+      width: 50%;
+      
+    }
+    .bottom-header ul {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .bottom-header .link {
+      padding: 10px;
+      height: fit-content;
+      width: 100%;
+    }
+    .bars{
+        font-size: 40px;
+    }
+  }
